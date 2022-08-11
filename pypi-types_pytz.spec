@@ -4,7 +4,7 @@
 #
 Name     : pypi-types_pytz
 Version  : 2022.1.2
-Release  : 11
+Release  : 12
 URL      : https://files.pythonhosted.org/packages/60/1e/0619a911fed3fe1a1f050d4e433b67f8b74a74c61d0b2ba50c847761614a/types-pytz-2022.1.2.tar.gz
 Source0  : https://files.pythonhosted.org/packages/60/1e/0619a911fed3fe1a1f050d4e433b67f8b74a74c61d0b2ba50c847761614a/types-pytz-2022.1.2.tar.gz
 Summary  : Typing stubs for pytz
