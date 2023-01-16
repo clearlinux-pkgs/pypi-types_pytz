@@ -1,5 +1,5 @@
 PKG_NAME := pypi-types_pytz
-URL = https://files.pythonhosted.org/packages/45/ee/5dfe0f4093efa8411b129381370df3f34474951c3012cc63684726996fa7/types-pytz-2022.7.0.0.tar.gz
+URL = https://files.pythonhosted.org/packages/00/86/401c4f07bfce7c2debf663d2b1a1ec1140f6c9984ad8a430c56ff2d013d1/types-pytz-2022.7.1.0.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
