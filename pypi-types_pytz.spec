@@ -4,10 +4,10 @@
 # Using build pattern: distutils3
 #
 Name     : pypi-types_pytz
-Version  : 2023.3.0.1
-Release  : 29
-URL      : https://files.pythonhosted.org/packages/78/04/f1a77be852ae8102dc6ab531a3095ce1c1cc80cfa8a12afe015eeec68aa5/types-pytz-2023.3.0.1.tar.gz
-Source0  : https://files.pythonhosted.org/packages/78/04/f1a77be852ae8102dc6ab531a3095ce1c1cc80cfa8a12afe015eeec68aa5/types-pytz-2023.3.0.1.tar.gz
+Version  : 2023.3.1.0
+Release  : 30
+URL      : https://files.pythonhosted.org/packages/51/b0/c39263c48bf1c12bde20ce7569ba4376d6b5f701cff2775b0c4f2983d830/types-pytz-2023.3.1.0.tar.gz
+Source0  : https://files.pythonhosted.org/packages/51/b0/c39263c48bf1c12bde20ce7569ba4376d6b5f701cff2775b0c4f2983d830/types-pytz-2023.3.1.0.tar.gz
 Summary  : Typing stubs for pytz
 Group    : Development/Tools
 License  : Apache-2.0
@@ -41,10 +41,10 @@ python3 components for the pypi-types_pytz package.
 
 
 %prep
-%setup -q -n types-pytz-2023.3.0.1
-cd %{_builddir}/types-pytz-2023.3.0.1
+%setup -q -n types-pytz-2023.3.1.0
+cd %{_builddir}/types-pytz-2023.3.1.0
 pushd ..
-cp -a types-pytz-2023.3.0.1 buildavx2
+cp -a types-pytz-2023.3.1.0 buildavx2
 popd
 
 %build
@@ -52,7 +52,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1692029287
+export SOURCE_DATE_EPOCH=1695065629
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
